@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "stdint.h": "c",
+        "word_manage_p.h": "c"
+    }
+}

@@ -1,0 +1,17 @@
+#ifndef WORD_MANAGE_P_H_INCLUDED
+#define WORD_MANAGE_P_H_INCLUDED
+
+#include "word_manage.h"
+
+typedef struct{
+    char *name;
+    char count;
+}Word;
+
+#define WORD_NUM_MAX (10000)
+
+extern Word word_array[];
+extern int num_of_word;
+
+#endif
+
